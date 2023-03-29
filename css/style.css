@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(167, 144, 144);
+    width: 1250px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav {
+    background-color: rgb(168, 168, 134);
+}
+
+body header h1 {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.nav {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    margin-right: 80px;
+}
+
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a:visited {
+    color: rgb(236, 10, 10);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+
+}
+
+nav ul li a:hover {
+    background-color: black;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+.content-area {
+    display: flex;
+}
+
+article {
+    flex: 2;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+
+
+
+}
+
+aside {
+    flex: 1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+
+
+}
+
+footer {
+
+    background-color: rgb(168, 168, 134);
+}
+
+fieldset {
+    border: 2px solid rgb(110, 109, 109);
+    border-radius: 15px;
+    padding: 5px;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+aside ul li a:link {
+    text-decoration: none;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
